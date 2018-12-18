@@ -1,5 +1,5 @@
 def prime?(x)
-  (2..n/2).none? do |y|
+  (2..x/2).none? do |y|
     x % y == 0
   end
 
