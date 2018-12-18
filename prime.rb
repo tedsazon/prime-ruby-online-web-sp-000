@@ -6,6 +6,6 @@ def prime?(x)
   else
     (2..x/2).none? do |y|
     x % y == 0
-  end
+    end
   end
 end
